@@ -1,0 +1,31 @@
+#footer__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #37471f;
+}
+
+#footer__container h6 {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#footer__container h6:hover {
+    color: gray;
+}
+
+#footer__container #emailInput {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.icons {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icons:hover {
+    color: gray;
+}

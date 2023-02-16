@@ -1,0 +1,53 @@
+#navbar__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+
+}
+
+#navbar__container > div:nth-child(1) {
+    width: 15%;
+}
+
+#navbar__container > div:nth-child(2) {
+    width: 30%;
+}
+
+#navbar__container > div:nth-child(3) {
+    width: 30%;
+}
+
+#navbar__container #logo {
+    width: 100px;
+    height: 100px;
+}
+
+#navbar__list  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#navbar__list span {
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#navbar__list span:hover {
+    color: gray;
+}
+
+#navbar__list .navbar__links {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
+
+
